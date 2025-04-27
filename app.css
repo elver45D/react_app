@@ -1,0 +1,35 @@
+/* Tus estilos globales adaptados */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cadce5;
+  line-height: 1.6;
+  color: #020302;
+}
+
+/* Ajustes para componentes */
+.header {
+  background-image: url("images/21317750-portada-de-menú-de-un-restaurante-con-vajilla-para-el-diseño.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+/* Otros estilos basados en tu CSS original */
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #111010;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.nosotros {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.nosotros-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nosotros h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ff5722;
+}
+
+.nosotros p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.nosotros-img {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

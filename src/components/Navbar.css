@@ -1,0 +1,64 @@
+.navbar {
+  background-color: #0fc781;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: #ff5722; /* Un naranja bonito */
+}
+
+.reserva-btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.reserva-btn:hover {
+  background-color: #e64a19;
+}
+.theme-switcher-btn {
+  background-color: transparent;
+  border: 2px solid #ff5722;
+  color: #ff5722;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+}
+
+.theme-switcher-btn:hover {
+  background-color: #ff5722;
+  color: rgb(17, 109, 196);
+}

@@ -1,0 +1,45 @@
+#testimonios {
+  padding: 4rem 2rem;
+  background-color: #08bd17;
+  text-align: center;
+}
+
+#testimonios h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #0f0505;
+}
+
+.testimonios-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonio {
+  background-color: #041c5f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonio p {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #0a0101;
+  margin-bottom: 1rem;
+}
+
+.testimonio h4 {
+  font-weight: bold;
+  color: #ff5722; /* Mismo naranja que usas en otros lados */
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+  .testimonios-container {
+    padding: 0 1rem;
+  }
+}
